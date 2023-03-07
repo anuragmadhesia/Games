@@ -148,3 +148,16 @@ h1 {
   width: 100px;
   height: 100px;
 }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .time,
+  .score {
+    font-size: 13px;
+  }
+  .insect img {
+    width: 60px;
+    height: 60px;
+  }
+}
